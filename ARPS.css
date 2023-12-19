@@ -1,0 +1,101 @@
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game container styles */
+.body-of-game {
+    background-color: #89bace;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Title styles */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Move button styles */
+.move-button {
+
+    background-color: #363f46;
+    color: #fff;
+    border: none;
+    border-radius: 60px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: background-color 0.3s;
+}
+
+.move-button:hover {
+    background-color: #e68888;
+}
+
+.move-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Results and Moves styles */
+.js-results, .js-moves {
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* Score styles */
+.js-score {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* Reset and Auto Play button styles */
+.js-reset-button, .js-auto-play-button {
+    margin-bottom: 20px;
+    background-color: #d4a0af;
+    color: #000000;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* margin: 10px; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.js-reset-button:hover, .js-auto-play-button:hover {
+    background-color: #5d75a1;
+}
+
+.yes-button , .no-button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    cursor: pointer;
+}
+
